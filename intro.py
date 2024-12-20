@@ -7,7 +7,7 @@ st.title("Stock Price Analyzer by VIKAS SINGH")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    stock_name = st.text_input("Which stock you want to analyse", "MSFT")
+    stock_name = st.text_input("Write the Ticker which stock you want to analyse", "MSFT")
 
 ticker_data = yf.Ticker(stock_name)
 
