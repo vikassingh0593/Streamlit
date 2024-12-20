@@ -3,7 +3,7 @@ import yfinance as yf
 import datetime
 
 
-st.title("Stock Price Analyzer.")
+st.title("Stock Price Analyzer by VIKAS SINGH")
 col1, col2, col3 = st.columns(3)
 
 with col1:
