@@ -2,6 +2,7 @@ import streamlit as st
 import yfinance as yf
 import datetime
 
+st.set_page_config(layout="wide")
 
 st.title("Stock Price Analyzer by VIKAS SINGH")
 col1, col2, col3 = st.columns(3)
